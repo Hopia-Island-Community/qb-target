@@ -395,22 +395,22 @@ Config.TargetModels = {
 		},
 		distance = 4.0
 	},
-	["HopitalMedic"] = {
-		models = {
-			"s_m_m_scientist_01",
-		},
-		options = {
-			{
-				type = "client",
-				event = "qb-ambulancejob:armory",
-				category = "shop2",
-				icon = "fas fa-ambulance",
-				label = "Pharmacie",
-				job = {["ambulance"] = 0, ["lsfd"] = 0},
-			},
-		},
-		distance = 4.0
-	},
+	--["HopitalMedic"] = {
+	--	models = {
+	--		"s_m_m_scientist_01",
+	--	},
+	--	options = {
+	--		{
+	--			type = "client",
+	--			event = "qb-ambulancejob:armory",
+	--			category = "shop2",
+	--			icon = "fas fa-ambulance",
+	--			label = "Pharmacie",
+	--			job = {["ambulance"] = 0, ["lsfd"] = 0},
+	--		},
+	--	},
+	--	distance = 4.0
+	--},
 	["TaxiDuty"] = {
 		models = {
 			"a_m_m_indian_01",
